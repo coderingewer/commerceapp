@@ -1,0 +1,79 @@
+.bar {
+  height: 240px;
+  width: 100%;
+}
+
+.topbar {
+  display: flex;
+  justify-content: end;
+  height: 90px;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  background-color: #008985;
+  padding-right: 160px;
+  gap: 30px;
+  font-weight: 700;
+}
+
+.info{
+    font-size: 27px;
+}
+
+.signin {
+  border: none;
+  font-size: 18px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+  color: #008985;
+  height: 50px;
+  font-size: 18px;
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+}
+
+.navbar {
+  color: #15192d;
+  height: 150px;
+  display: flex;
+  background-color: white;
+}
+
+.navigations {
+  display: flex;
+  position: relative;
+  height: 100%;
+  width: 60%;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 33px;
+  letter-spacing: 0px;
+  font-weight: 550;
+  color: #161a2d;
+}
+.logo {
+  width: 20%;
+  position: relative;
+  left: 0;
+  height: 100%;
+  display: flex;
+  padding-left: 130px;
+  align-items: center;
+}
+
+.contact{
+    position: relative;
+    display: flex;
+    gap: 20px;
+    height: 100%;
+    width: 20%;
+}
+
+.contact img{
+    width: 30px;
+}

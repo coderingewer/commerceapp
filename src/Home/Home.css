@@ -1,0 +1,291 @@
+.slide {
+  position: relative;
+  width: 100%;
+  height: 625px;
+}
+
+.slide img {
+  width: 100%;
+}
+
+.productstitle {
+  height: 250px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 140px;
+  align-items: center;
+  justify-content: center;
+}
+
+.slides {
+  height: 625px;
+  position: relative;
+  background-color: aquamarine;
+  z-index: 2;
+}
+
+.explore {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+
+.cart {
+  position: relative;
+  width: 534px;
+  height: 480px;
+  background-color: black;
+}
+
+.cart img {
+  width: 100%;
+  height: 100%;
+}
+
+.cartdetails {
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.cartdetails h1 {
+  font-size: 29px;
+  letter-spacing: 0px;
+  color: #16171b;
+  text-align: center;
+}
+
+.cartdetails p {
+  font-size: 15px;
+  letter-spacing: 0px;
+  color: #16171b;
+  font-weight: 300;
+  text-align: center;
+}
+
+.cartdetails:hover {
+  opacity: 0.851;
+  background-color: #dadada;
+}
+
+.fuar {
+  position: relative;
+  height: 625px;
+  width: 100%;
+  background: url("./bina-site.png");
+}
+
+.fuarcover {
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.56);
+}
+.fuarcover h1 {
+  font-size: 43px;
+  letter-spacing: -1px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.fuarcover p {
+  font-size: 29px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-weight: 300;
+  text-align: center;
+}
+
+.addinhome {
+  height: 730px;
+  width: 100%;
+  display: flex;
+}
+
+.addbody {
+  height: 100%;
+  width: 56%;
+  padding-left: 7%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  flex-direction: column;
+}
+.addbody h1 {
+  font-size: 42px;
+  letter-spacing: 0px;
+  color: #161a2d;
+  font-weight: bold;
+}
+
+.addbody p {
+  width: 1017px;
+  font-size: 30px;
+  letter-spacing: 0px;
+  color: #767677;
+  font-weight: 500;
+}
+
+.addbody a {
+  background-color: #008985;
+  font-size: 21px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.images {
+  width: 37%;
+  height: 100%;
+  background-color: #dadada;
+}
+
+.imagescover {
+  width: 100%;
+  height: 100%;
+  background: url("./marka.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imgsbody {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.bigimgbody {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bigimg {
+  display: flex;
+  width: 100%;
+  height: 80%;
+}
+
+.smallimgbody {
+  width: 50%;
+  height: 100%;
+}
+
+.smallimg {
+  width: 100%;
+  height: 70%;
+}
+
+.references {
+  height: 800px;
+  width: 86%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.referancescontent {
+  display: flex;
+  overflow-x: scroll;
+  gap: 50px;
+  width: 100%;
+}
+.referancetitle h1 {
+  font-size: 42px;
+  letter-spacing: 0px;
+  color: #161a2d;
+  height: 42px;
+}
+.referancetitle p {
+  font-size: 27px;
+  letter-spacing: 0px;
+  color: #161a2d;
+  height: 27px;
+}
+.referancetitle {
+  width: 100%;
+  padding-bottom: 50px;
+}
+.referancescontent::-webkit-scrollbar {
+  display: none;
+}
+
+.referance {
+  height: 520px;
+  min-width: 510px;
+  background: url("./referance.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.referancecover {
+  background-color: #c8c8c8b0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  opacity: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.referancecover:hover {
+  opacity: 1;
+}
+
+.referancecover h1 {
+  font-size: 31px;
+  color: #161a2d;
+  font-weight: 800;
+}
+.referancecover a {
+  font-size: 11px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  background-color: #008985;
+  padding: 10px;
+  font-weight: 600;
+}
+.footer {
+  height: 530px;
+  width: 100%;
+  background-color: brown;
+}
+
+.detailinfo {
+  width: 230px;
+  height: 50px;
+  font-size: 25px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #008985;
+  text-align: center;
+}
