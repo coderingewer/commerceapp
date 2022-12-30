@@ -43,19 +43,19 @@
   padding-bottom: 80px;
 }
 
-.cart {
+.explorecart {
   position: relative;
   width: 534px;
   height: 480px;
   background-color: black;
 }
 
-.cart img {
+.explorecart img {
   width: 100%;
   height: 100%;
 }
 
-.cartdetails {
+.explorecartdetails {
   opacity: 0;
   height: 100%;
   width: 100%;
@@ -68,14 +68,14 @@
   position: absolute;
 }
 
-.cartdetails h1 {
+.explorecartdetails h1 {
   font-size: 29px;
   letter-spacing: 0px;
   color: #16171b;
   text-align: center;
 }
 
-.cartdetails p {
+.explorecartdetails p {
   font-size: 15px;
   letter-spacing: 0px;
   color: #16171b;
@@ -83,7 +83,7 @@
   text-align: center;
 }
 
-.cartdetails:hover {
+.explorecartdetails:hover {
   opacity: 0.851;
   background-color: #dadada;
 }
