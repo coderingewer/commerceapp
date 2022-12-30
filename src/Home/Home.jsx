@@ -3,10 +3,11 @@ import NavBar from "../bars/NavBar";
 import banner from "./banner.png";
 import product from "./product.png";
 import "./Home.css";
+import Footer from "../bars/Footer";
 
 function Home() {
   return (
-    <div>
+    <div className="home">
       <NavBar />
       <div className="slides">
         <div className="slide">
@@ -73,8 +74,8 @@ function Home() {
           <a className="detailinfo">Detaylı Bilgi </a>
         </div>
       </div>
-      <div className="addinhome">
-        <div className="addbody">
+      <div className="card">
+        <div className="cardbody">
           <h1>Dünya Markası Olma Yolunda</h1>
           <p>
             Türkiye'nin nadir yerli üretim bahçe mobilyaları imalatı yapan
@@ -180,7 +181,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <footer className="footer"></footer>
+      <Footer/>
     </div>
   );
 }

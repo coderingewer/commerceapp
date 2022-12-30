@@ -1,0 +1,130 @@
+.footer {
+  height: 525px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #11131f;
+}
+
+.footertop {
+  display: flex;
+  align-items: center;
+  height: 200px;
+  width: 86%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.footertop h1 {
+  font-size: 38px;
+  text-align: left;
+  color: #dcdcdc;
+}
+
+.footertop a {
+  font-size: 28px;
+  letter-spacing: 0px;
+  color: #0b0d18;
+  height: 75px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 35px;
+  font-weight: 700;
+  background-color: #008985;
+}
+
+.footertop::after {
+  content: "";
+  position: absolute;
+  top: 200px;
+  left: 7%;
+  border-bottom: 1px solid rgba(111, 111, 111, 0.624);
+  width: 86%;
+}
+
+.footeritems {
+  height: 325px;
+  width: 86%;
+  color: #919191;
+  padding-right: 7%;
+  padding-left: 7%;
+  display: flex;
+}
+
+.footeritm {
+  display: flex;
+  position: relative;
+  width: 30%;
+  padding-left: 3%;
+  padding-right: 3%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footermtlogo {
+  margin-top: 50px;
+  width: 200px;
+  height: 75px;
+}
+
+.aboutinfooter {
+  width: 445px;
+  height: 194px;
+  font-size: 21px;
+  text-align: left;
+  letter-spacing: 0px;
+  font-weight: 600;
+}
+.footeritmtitle {
+  margin-top: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: -20px;
+}
+
+.footeritmtitle::after {
+  content: "";
+  position: absolute;
+  top: 64px;
+  left: 0;
+  border-bottom: 1px solid rgba(111, 111, 111, 0.624);
+  width: 25%;
+}
+
+.footeritmtitle h1 {
+  font-size: 32px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.linkinfoooter {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 20px;
+  height: 40px;
+}
+.footerlinks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.linkinfoooter img {
+  width: 30px;
+  height: 30px;
+}
+
+.linkinfoooter p {
+  font-size: 20px;
+  text-align: left;
+  letter-spacing: 0px;
+  font-weight: 600;
+}
