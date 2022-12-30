@@ -14,12 +14,10 @@ function Home() {
           <img src={banner} />
         </div>
       </div>
-
-      <div className="productstitle">
+      <div className="exploretitle">
         <h1>Ürün Grupları</h1>
         <p>Ürünlerimizi Kefşetmeye Hazır mısınız?</p>
       </div>
-
       <div className="explore">
         <div className="explorecart">
           <div className="explorecartdetails">
