@@ -1,5 +1,5 @@
 .footer {
-  height: 525px;
+  height: 550px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -16,16 +16,16 @@
   padding-right: 7%;
 }
 .footertop h1 {
-  font-size: 38px;
+  font-size: 32px;
   text-align: left;
   color: #dcdcdc;
 }
 
 .footertop a {
-  font-size: 28px;
+  font-size: 18px;
   letter-spacing: 0px;
   color: #0b0d18;
-  height: 75px;
+  height: 50px;
   width: 300px;
   display: flex;
   align-items: center;
@@ -73,9 +73,8 @@
 }
 
 .aboutinfooter {
-  width: 445px;
   height: 194px;
-  font-size: 21px;
+  font-size: 18px;
   text-align: left;
   letter-spacing: 0px;
   font-weight: 600;
@@ -99,7 +98,7 @@
 }
 
 .footeritmtitle h1 {
-  font-size: 32px;
+  font-size: 28px;
   letter-spacing: 0px;
   color: #ffffff;
   font-weight: 600;
@@ -108,22 +107,22 @@
   display: flex;
   width: 100%;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
   height: 40px;
 }
 .footerlinks {
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
 }
 
 .linkinfoooter img {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
 }
 
 .linkinfoooter p {
-  font-size: 20px;
+  font-size: 16px;
   text-align: left;
   letter-spacing: 0px;
   font-weight: 600;

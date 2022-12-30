@@ -29,11 +29,11 @@
   background-color: #ffffff;
   border-bottom: #008985 solid 10px;
 }
-.contactform h3{
-    font-size: 28px;
-line-height: 47px;
-color: #1f1e1e;
-font-weight: bold;
+.contactform h3 {
+  font-size: 28px;
+  line-height: 47px;
+  color: #1f1e1e;
+  font-weight: bold;
 }
 
 .contactform input {
@@ -72,4 +72,41 @@ font-weight: bold;
   color: #ffffff;
   font-weight: bold;
   border: none;
+}
+
+.contactsinfo {
+  height: 90%;
+  width: 50%;
+  gap: 50px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactinfoitem {
+  width: 80%;
+  display: flex;
+  width: 80%;
+  height: 150px;
+  align-items: center;
+  padding: 10px;
+  gap: 40px;
+  filter: drop-shadow(0px 33px 27px rgba(0, 0, 0, 0.18));
+  background-color: #ffffff;
+  border-bottom: #008985 solid 2px;
+}
+
+.contactinfoitem h1{
+  font-size: 29px;
+line-height: 30px;
+color: #1f1e1e;
+text-align: left;
+}
+
+.contactinfoitem img{
+width: 50px;
+margin-left: 20px;
+height: 50px;
 }

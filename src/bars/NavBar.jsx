@@ -15,14 +15,18 @@ function NavBar() {
         <div className="info">Pzt-Cm 9.00-18.00</div>
       </div>
       <div className="navbar">
-        <div className="logo">
-          <img src={logo} alt="" />
-        </div>
+          <div className="logo">
+        <Link className="link" to="/">
+            <img src={logo} alt="" />
+        </Link>
+          </div>
         <div className="navigations">
-          <Link className="link" to="/">
-            <div>Anasayfa</div>
-          </Link>
-          <Link className="link" to="/">
+          <div>
+            <Link className="link" to="/">
+              Anasayfa
+            </Link>
+          </div>
+          <Link className="link" to="/getknowus">
             <div>Bizi Tanıyın</div>
           </Link>
           <Link className="link" to="/products">
