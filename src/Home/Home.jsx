@@ -21,43 +21,43 @@ function Home() {
       </div>
 
       <div className="explore">
-        <div className="cart">
-          <div className="cartdetails">
+        <div className="explorecart">
+          <div className="explorecartdetails">
             <p>Ürünlerimiz</p>
             <h1>Bahçe Mobilyası</h1>
           </div>
           <img src={product} alt="" />
         </div>
-        <div className="cart">
-          <div className="cartdetails">
+        <div className="explorecart">
+          <div className="explorecartdetails">
             <p>Ürünlerimiz</p>
             <h1>Bahçe Mobilyası</h1>
           </div>
           <img src={product} alt="" />
         </div>
-        <div className="cart">
-          <div className="cartdetails">
+        <div className="explorecart">
+          <div className="explorecartdetails">
             <p>Ürünlerimiz</p>
             <h1>Bahçe Mobilyası</h1>
           </div>
           <img src={product} alt="" />
         </div>
-        <div className="cart">
-          <div className="cartdetails">
+        <div className="explorecart">
+          <div className="explorecartdetails">
             <p>Ürünlerimiz</p>
             <h1>Bahçe Mobilyası</h1>
           </div>
           <img src={product} alt="" />
         </div>
-        <div className="cart">
-          <div className="cartdetails">
+        <div className="explorecart">
+          <div className="explorecartdetails">
             <p>Ürünlerimiz</p>
             <h1>Bahçe Mobilyası</h1>
           </div>
           <img src={product} alt="" />
         </div>
-        <div className="cart">
-          <div className="cartdetails">
+        <div className="explorecart">
+          <div className="explorecartdetails">
             <p>Ürünlerimiz</p>
             <h1>Bahçe Mobilyası</h1>
           </div>
