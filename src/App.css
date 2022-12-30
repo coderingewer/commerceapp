@@ -10,3 +10,7 @@
   height: 40vmin;
   pointer-events: none;
 }
+.link{
+  text-decoration: none;
+  color: black;
+}
