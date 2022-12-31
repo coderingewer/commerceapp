@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
+import Menu from "./bars/Menu";
 import Cart from "./Home/Cart";
 import Contact from "./Home/Contact";
 import GetKnowUs from "./Home/GetKnowUs";
@@ -10,6 +11,7 @@ import Projects from "./Home/Projects";
 function App() {
   return (
     <div className="App">
+      
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home/>} />
@@ -19,6 +21,7 @@ function App() {
           <Route path="/products" element={<Product/>} />
           <Route path="/getknowus" element={<GetKnowUs/>} />
         </Routes>
+      <Menu/>
       </BrowserRouter>
     </div>
   );

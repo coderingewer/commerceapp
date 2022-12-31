@@ -11,13 +11,11 @@ function Footer() {
     <>
       <footer className="footer">
         <div className="footertop">
-            <div style={{width:"50%", height:"100%", display:"flex", alignItems:"center"}}>
           <h1>
             Hizmetlerimiz ile ilgili tüm sorularınızı yanıtlamaya her zaman
             hazırız.
           </h1>
-            </div>
-            <div style={{width:"50%", height:"100%", display:"flex", alignItems:"center",gap:"70px", justifyContent:"flex-end"}}>
+            <div className="footertopbtns">
                 <a style={{backgroundColor:"white"}} href="">bizi arayın</a> 
                 <a href="">Bayilik(Franchise)</a>               
             </div>
