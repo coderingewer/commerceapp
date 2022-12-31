@@ -13,6 +13,7 @@ function App() {
     <div className="App">
       
       <BrowserRouter>
+      <Menu/>
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/cart" element={<Cart/>} />
@@ -21,7 +22,6 @@ function App() {
           <Route path="/products" element={<Product/>} />
           <Route path="/getknowus" element={<GetKnowUs/>} />
         </Routes>
-      <Menu/>
       </BrowserRouter>
     </div>
   );
