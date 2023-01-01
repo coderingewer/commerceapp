@@ -1,14 +1,18 @@
 import React from "react";
 import NavBar from "../bars/NavBar";
-import banner from "./banner.png";
-import product from "./product.png";
+import banner from "./images/banner.png";
+import product from "./images/product.png";
 import "./Home.css";
+import marka from "./images/marka.png";
+import Login from "./Forms/Login";
 import Footer from "../bars/Footer";
+import ApplyFranchise from "./Forms/ApplyFranchis";
 
 function Home() {
   return (
     <div className="home">
       <NavBar />
+      <Login/>
       <div className="slides">
         <div className="slide">
           <img src={banner} />
@@ -76,16 +80,17 @@ function Home() {
         <div className="cardbody">
           <h1>Dünya Markası Olma Yolunda</h1>
           <p>
-            Türkiye'nin nadir yerli üretim bahçe mobilyaları imalatı yapan
-            firmalarından biri olmaktan gurur duyuyoruz.Her gün yenilenen ürün
-            portöyümüz ve değişime açık dinamik yapımız sayesinde hızla büyüyor
-            ve bir dünya markası olma yolunda ilerliyoruz.Siz de bu değere ortak
-            olmak için yolculuğumuza katılın...
+            explorecart Türkiye'nin nadir yerli üretim bahçe mobilyaları imalatı
+            yapan firmalarından biri olmaktan gurur duyuyoruz.Her gün yenilenen
+            ürün portöyümüz ve değişime açık dinamik yapımız sayesinde hızla
+            büyüyor ve bir dünya markası olma yolunda ilerliyoruz.Siz de bu
+            değere ortak olmak için yolculuğumuza katılın...
           </p>
           <a>DAHA FAZLA</a>
         </div>
         <div className="images">
           <div className="imagescover">
+            <img src={marka} alt="" />
             <div className="imgsbody">
               <div className="bigimgbody">
                 <div
@@ -95,7 +100,7 @@ function Home() {
                     backgroundColor: "white",
                   }}
                 ></div>
-                <div className="bigimg">sdfg</div>
+                <div className="bigimg"></div>
                 <div
                   style={{
                     height: "10%",
@@ -179,7 +184,8 @@ function Home() {
           </div>
         </div>
       </div>
-      <Footer/>
+      <ApplyFranchise/>
+      <Footer />
     </div>
   );
 }

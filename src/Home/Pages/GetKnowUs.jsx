@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Footer from "../bars/Footer";
-import NavBar from "../bars/NavBar";
 import "./GetKnowUs.css";
-import data from "./About.json";
+import data from "../About.json";
+import NavBar from "../../bars/NavBar";
+import Footer from "../../bars/Footer";
 
 function GetKnowUs() {
   const [object, setObject] = useState(data[0]);

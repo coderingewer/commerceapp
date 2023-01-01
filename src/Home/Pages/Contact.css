@@ -1,18 +1,19 @@
 @media only screen and (min-width: 950px) {
-
-.contactpage {
-  width: 86%;
-  padding-left: 7%;
-  padding-right: 7%;
-  height: 900px;
-  display: flex;
-  gap: 10%;
-  align-items: center;
-}
+  .contactpage {
+    width: 86%;
+    padding-left: 7%;
+    padding-right: 7%;
+    height: 900px;
+    display: flex;
+    gap: 10%;
+    align-items: center;
+  }
+  .contactformarea{
+    width: 30%;
+  }
 }
 
 @media only screen and (max-width: 949px) {
-
   .contactpage {
     width: 100%;
     display: flex;
@@ -22,18 +23,17 @@
     align-items: center;
   }
 
-.contactformarea {
-  width: 90%;
-  display: grid;
-  margin-top: 100px;
-  padding-bottom: 50px;
-  place-items: center;
-}
-.contactsinfo {
-  width: 90%;
-  padding-bottom: 50px;
-}
+  .contactformarea {
+    display: grid;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    place-items: center;
   }
+  .contactsinfo {
+    width: 90%;
+    padding-bottom: 50px;
+  }
+}
 
 .contactformarea {
   display: grid;
@@ -48,6 +48,7 @@
   justify-content: center;
   height: 600px;
   padding: 20px;
+  width: 100%;
   border-radius: 17px;
   filter: drop-shadow(0px 33px 27px rgba(0, 0, 0, 0.18));
   background-color: #ffffff;
@@ -61,11 +62,10 @@
 }
 
 .contactform input {
-  height: 80px;
+  height: 50px;
   width: 80%;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
-  height: 83px;
   border-radius: 8px;
   filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, 0.05));
   background-color: #ffffff;
@@ -84,7 +84,7 @@
   border: 1px solid #dde4ea;
 }
 
-.contactform button {
+.formbtn {
   width: 150px;
   height: 50px;
   border-radius: 8px;

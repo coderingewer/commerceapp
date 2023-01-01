@@ -9,13 +9,17 @@ import menu from "./icons/menu.png";
 import { Link } from "react-router-dom";
 
 function NavBar() {
+  const loggined = Boolean(localStorage.getItem("franchiselogined"))
   const handleOpen = (id)=>{
     document.getElementById(id).style.display="flex"
 }
   return (
     <div className="bar">
       <div className="topbar">
-        <button className="signin">BAYİLİK GİRİŞİ </button>
+        {
+          loggined ? <Link className="link" to = "/cart">Sepet</Link>:
+        <button onClick={()=>handleOpen("loginform")} className="signin">Bayii Girişi </button>
+        }
         <div className="info">Pzt-Cm 9.00-18.00</div>
       </div>
       <div className="navbar">

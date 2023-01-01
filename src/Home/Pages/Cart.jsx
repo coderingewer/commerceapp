@@ -1,9 +1,10 @@
 import React from "react";
-import Footer from "../bars/Footer";
-import NavBar from "../bars/NavBar";
+
 import "./Cart.css";
-import marka from "./marka.png";
-import delicon from "./delete.svg";
+import marka from "../images/marka.png";
+import delicon from "../images/delete.svg";
+import NavBar from "../../bars/NavBar";
+import Footer from "../../bars/Footer";
 
 function Cart() {
   return (

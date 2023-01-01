@@ -5,8 +5,12 @@ import location from "./icons/location.png";
 import phone from "./icons/phone.png";
 import email from "./icons/email.png";
 import arrow from "./icons/arrow.png";
+import { Link } from "react-router-dom";
 
 function Footer() {
+  const handleOpen = (id) => {
+    document.getElementById(id).style.display = "flex";
+  };
   return (
     <>
       <footer className="footer">
@@ -15,10 +19,14 @@ function Footer() {
             Hizmetlerimiz ile ilgili tüm sorularınızı yanıtlamaya her zaman
             hazırız.
           </h1>
-            <div className="footertopbtns">
-                <a style={{backgroundColor:"white"}} href="">bizi arayın</a> 
-                <a href="">Bayilik(Franchise)</a>               
-            </div>
+          <div className="footertopbtns">
+            <button style={{ backgroundColor: "white" }} href="">
+              bizi arayın
+            </button>
+            <button onClick={() => handleOpen("applyform")} href="">
+              Bayilik
+            </button>
+          </div>
         </div>
         <div className="footeritems">
           <div className="footeritm">
@@ -51,33 +59,33 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className="footeritm">
-            <div className="footeritmtitle">
-              <h1>Kurumsal</h1>
+            <div className="footeritm">
+              <div className="footeritmtitle">
+                <h1>Kurumsal</h1>
+              </div>
+              <div className="footerlinks">
+                <div className="linkinfoooter">
+                  {" "}
+                  <img src={arrow} />
+                  <p>Vizyonumuz</p>
+                </div>
+                <div className="linkinfoooter">
+                  {" "}
+                  <img src={arrow} />
+                  <p>Gizilik Politikası</p>
+                </div>
+                <div className="linkinfoooter">
+                  {" "}
+                  <img src={arrow} />
+                  <p>Üyelik Sözleşmesi</p>
+                </div>
+                <div className="linkinfoooter">
+                  {" "}
+                  <img src={arrow} />
+                  <p>Mutlu Müşteriler</p>
+                </div>
+              </div>
             </div>
-            <div className="footerlinks">
-              <div className="linkinfoooter">
-                {" "}
-                <img src={arrow} />
-                <p>Vizyonumuz</p>
-              </div>
-              <div className="linkinfoooter">
-                {" "}
-                <img src={arrow} />
-                <p>Gizilik Politikası</p>
-              </div>
-              <div className="linkinfoooter">
-                {" "}
-                <img src={arrow} />
-                <p>Üyelik Sözleşmesi</p>
-              </div>
-              <div className="linkinfoooter">
-                {" "}
-                <img src={arrow} />
-                <p>Mutlu Müşteriler</p>
-              </div>
-            </div>
-          </div>
         </div>
       </footer>
     </>

@@ -1,0 +1,16 @@
+.forms {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.257);
+  z-index: 7;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.formarea {
+  display: flex;
+  align-items: center;
+  min-width: 300px;
+}

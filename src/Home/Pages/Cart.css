@@ -1,0 +1,227 @@
+@media only screen and (min-width: 950px) {
+.neworder {
+  display: flex;
+  height: 850px;
+  width: 86%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.orders {
+  height: 90%;
+  display: flex;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 70%;
+  overflow-y: scroll;
+  gap: 20px;
+}
+
+.orders::-webkit-scrollbar {
+  display: none;
+}
+
+.order {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90%;
+  width: 500px;
+}
+
+.orderimg {
+  height: 400px;
+  width: 400px;
+  padding: 20px;
+  border: solid black;
+}
+
+.orderimg img {
+  width: 100%;
+  height: 100%;
+}
+
+.delbtn {
+  border: none;
+  background: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 50px;
+  font-size: 24px;
+}
+
+.orderdetails {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.orderdetails h1 {
+  font-size: 29px;
+  color: #000000;
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+}
+.orderdetails p {
+  font-size: 22px;
+  color: #616161;
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+  top: -30px;
+}
+
+.orderdetails h2 {
+  font-size: 37px;
+  color: #f5680a;
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+  top: -60px;
+}
+
+.applyorder {
+  width: 30%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.applyorder button {
+  background-color: #008985;
+  width: 200px;
+  height: 50px;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+}
+
+.orderamount {
+  font-size: 24px;
+  color: #000000;
+  text-align: center;
+}
+}
+
+@media only screen and (max-width: 950px) {
+  .neworder {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .orders {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .orders::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    width: 350px;
+  }
+  
+  .orderimg {
+    height: 300px;
+    width: 200px;
+    padding: 20px;
+    border: solid black;
+  }
+  
+  .orderimg img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .delbtn {
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 50px;
+    font-size: 24px;
+  }
+  
+  .orderdetails {
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .orderdetails h1 {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+  }
+  .orderdetails p {
+    font-size: 12px;
+    color: #616161;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: -20px;
+  }
+  
+  .orderdetails h2 {
+    font-size: 18px;
+    color: #f5680a;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top: -40px;
+  }
+  
+  .applyorder {
+    width: 30%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .applyorder button {
+    background-color: #008985;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .orderamount {
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+  }
+  }

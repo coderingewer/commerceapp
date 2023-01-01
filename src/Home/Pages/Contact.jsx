@@ -1,8 +1,8 @@
 import React from "react";
-import Footer from "../bars/Footer";
-import NavBar from "../bars/NavBar";
 import "./Contact.css";
-import location from "../bars/icons/location.png";
+import location from "../../bars/icons/location.png";
+import NavBar from "../../bars/NavBar";
+import Footer from "../../bars/Footer";
 
 function Contact() {
   return (
