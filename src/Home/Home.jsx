@@ -17,13 +17,13 @@ function Home() {
     <div className="home">
       <NavBar />
       <div className="slides">
-        <div className={activeItem === 1 ? "slides activeslide" : "slide"}>
+        <div className={activeItem === 1 ? "slide activeslide" : "slide disable"}>
           <img src={product} />
         </div>
-        <div className={activeItem === 2 ? "slides activeslide" : "slide"}>
+        <div className={activeItem === 2 ? "slide activeslide" : "slide disable"}>
           <img src={banner} />
         </div>
-        <div className={activeItem === 3 ? "slides activeslide" : "slide"}>
+        <div className={activeItem === 3 ? "slide activeslide" : "slide disable"}>
           <img src={product} />
         </div>
         <div className="dots" >
