@@ -12,9 +12,10 @@ function AdminPanel() {
     <div className='adminpanel' >
         <Adminbar/>
         <Routes>
+          <Route path="/" element={<EbookRequests/>} />
           <Route path="/ebook" element={<EbookRequests/>} />
-          <Route path="/dealer" element={<DealersRequests/>} />
-          <Route path="/contact" element={<ContactedUser/>} />
+          <Route path="/dealer/*" element={<DealersRequests/>} />
+          <Route path="/contact/*" element={<ContactedUser/>} />
           <Route path="/product/*" element={<Products/>} />
         </Routes>
     </div>

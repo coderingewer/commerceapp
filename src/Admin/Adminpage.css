@@ -140,3 +140,16 @@
   width: 100%;
   height: 100%;
 }
+
+.requestscontent{
+  width: 100%;
+  height: 1000vh;
+}
+
+.requestcontenitem{
+  width: 96%;
+  padding: 2%;
+  display: flex;
+  gap: 20px;
+  text-align: left;
+}
