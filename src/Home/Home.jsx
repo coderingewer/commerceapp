@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import NavBar from "../bars/NavBar";
 import banner from "./images/banner.png";
 import product from "./images/product.png";
@@ -9,12 +9,27 @@ import Footer from "../bars/Footer";
 import ApplyFranchise from "./Forms/ApplyFranchis";
 
 function Home() {
+  const [activeItem, setActiveItem] = useState(1);
+  const HandleChange = (n) => {
+    setActiveItem(n);
+  };
   return (
     <div className="home">
-      <NavBar/>
+      <NavBar />
       <div className="slides">
-        <div className="slide">
+        <div className={activeItem === 1 ? "slides activeslide" : "slide"}>
+          <img src={product} />
+        </div>
+        <div className={activeItem === 2 ? "slides activeslide" : "slide"}>
           <img src={banner} />
+        </div>
+        <div className={activeItem === 3 ? "slides activeslide" : "slide"}>
+          <img src={product} />
+        </div>
+        <div className="dots" >
+          <button onClick={() => HandleChange(1)}>{activeItem ===1 && 1}</button>
+          <button onClick={() => HandleChange(2)}>{activeItem ===2 && 2}</button>
+          <button onClick={() => HandleChange(3)}>{activeItem ===3 && 3}</button>
         </div>
       </div>
       <div className="exploretitle">

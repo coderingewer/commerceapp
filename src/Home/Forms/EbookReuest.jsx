@@ -7,10 +7,10 @@ import { ApplyAsync } from "../../Redux/FranchiseSlice";
 
 export default function EbookReuest() {
   const dispatch = useDispatch();
-  const success = useSelector(state=>state.franchise.success)
+  const success = useSelector((state) => state.franchise.success);
   const [dealer, setDealer] = useState({
     DealerName: "",
-    Email: ""
+    Email: "",
   });
   const handleClose = (id) => {
     document.getElementById(id).style.display = "none";
@@ -20,9 +20,9 @@ export default function EbookReuest() {
     e.preventDefault();
     await dispatch(ApplyAsync(dealer));
   };
-  if (success){
-    handleClose("ebookrequest")
-  } 
+  if (success) {
+    handleClose("ebookrequest");
+  }
   console.log(dealer);
   return (
     <div id="ebookrequest" className="forms">
@@ -44,7 +44,7 @@ export default function EbookReuest() {
               })
             }
             type="text"
-            placeholder="Bayii Adınız"
+            placeholder="İsim Soyİsim"
           />
           <input
             onChange={(e) =>

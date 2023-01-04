@@ -31,28 +31,47 @@ function ContactedUser() {
           <div className="contentcards">
             <div className="contentcard">
               <div className="contentcarditem">
-                <Link to="/admin/contact/getcontent/id" >
-                <p>Ahmet Sönmez</p>
+                <Link to="/admin/contact/getcontent/id">
+                  <p>Ahmet Sönmez</p>
                 </Link>
-                </div>
-              <div className="contentcarditem"><p>mailimbuu@gmail.com</p></div>
-              <div className="contentcarditem">   <input type="checkbox" name="IsMale" value="false" /></div>
+              </div>
+              <div className="contentcarditem">
+                <p>mailimbuu@gmail.com</p>
+              </div>
+              <div className="contentcarditem">
+                {" "}
+                <input type="checkbox" name="IsMale" value="false" />
+              </div>
             </div>
             <div className="contentcard">
-              <div className="contentcarditem"><p>Ahmet Sönmez</p></div>
-              <div className="contentcarditem"><p>mailimbuu@gmail.com</p></div>
-              <div className="contentcarditem">   <input type="checkbox" name="IsMale" value="false" /></div>
+              <div className="contentcarditem">
+                <p>Ahmet Sönmez</p>
+              </div>
+              <div className="contentcarditem">
+                <p>mailimbuu@gmail.com</p>
+              </div>
+              <div className="contentcarditem">
+                {" "}
+                <input type="checkbox" name="IsMale" value="false" />
+              </div>
             </div>
             <div className="contentcard">
-              <div className="contentcarditem"><p>Ahmet Sönmez</p></div>
-              <div className="contentcarditem"><p>mailimbuu@gmail.com</p></div>
-              <div className="contentcarditem">   <input type="checkbox" name="IsMale" value="false" /></div>
+              <div className="contentcarditem">
+                <p>Ahmet Sönmez</p>
+              </div>
+              <div className="contentcarditem">
+                <p>mailimbuu@gmail.com</p>
+              </div>
+              <div className="contentcarditem">
+                {" "}
+                <input type="checkbox" name="IsMale" value="false" />
+              </div>
             </div>
           </div>
         </div>
         <Routes>
-          <Route path="/" element={<AnsweredContacts/>} />
-          <Route path="/getcontent/id" element={<OneContactRequest/>} />
+          <Route path="/" element={<AnsweredContacts />} />
+          <Route path="/getcontent/id" element={<OneContactRequest />} />
         </Routes>
       </div>
     </div>
