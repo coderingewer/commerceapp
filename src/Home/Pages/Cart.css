@@ -94,7 +94,7 @@
   flex-direction: column;
 }
 
-.applyorder button {
+.cartbtn{
   background-color: #008985;
   width: 200px;
   height: 50px;
@@ -207,7 +207,7 @@
     flex-direction: column;
   }
   
-  .applyorder button {
+  .cartbtn{
     background-color: #008985;
     width: 200px;
     height: 50px;

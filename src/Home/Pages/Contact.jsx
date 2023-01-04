@@ -16,7 +16,7 @@ function Contact() {
             <input type="text" placeholder="Telefon numararsı" />
             <input type="text" placeholder="E-posta adresi" />
             <textarea type="text" placeholder="Mesaj" />
-            <button>GÖNDER</button>
+            <button className="formbtn" >GÖNDER</button>
           </form>
         </div>
         <div className="contactsinfo">

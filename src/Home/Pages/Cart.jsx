@@ -70,7 +70,7 @@ function Cart() {
             <p>Toplam:</p>
             <p style={{fontWeight:"bold"}}>7500TL</p>
           </div>
-          <button>SATIN AL</button>
+          <button className="cartbtn"> SATIN AL</button>
         </div>
       </div>
       <Footer />

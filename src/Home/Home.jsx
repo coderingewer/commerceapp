@@ -11,8 +11,7 @@ import ApplyFranchise from "./Forms/ApplyFranchis";
 function Home() {
   return (
     <div className="home">
-      <NavBar />
-      <Login/>
+      <NavBar/>
       <div className="slides">
         <div className="slide">
           <img src={banner} />
@@ -153,38 +152,32 @@ function Home() {
           <div className="referance">
             <div className="referancecover">
               <h1>Kapadokya Otel</h1>
-              <a>HEMEN İNCELE</a>
             </div>
           </div>
 
           <div className="referance">
             <div className="referancecover">
               <h1>Kapadokya Otel</h1>
-              <a>HEMEN İNCELE</a>
             </div>
           </div>
 
           <div className="referance">
             <div className="referancecover">
               <h1>Kapadokya Otel</h1>
-              <a>HEMEN İNCELE</a>
             </div>
           </div>
           <div className="referance">
             <div className="referancecover">
               <h1>Kapadokya Otel</h1>
-              <a>HEMEN İNCELE</a>
             </div>
           </div>
           <div className="referance">
             <div className="referancecover">
               <h1>Kapadokya Otel</h1>
-              <a>HEMEN İNCELE</a>
             </div>
           </div>
         </div>
       </div>
-      <ApplyFranchise/>
       <Footer />
     </div>
   );

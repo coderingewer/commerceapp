@@ -1,0 +1,142 @@
+.adminpage {
+  display: flex;
+  flex-direction: column;
+  width: 86%;
+}
+
+.pagebar {
+  display: flex;
+  justify-content: center;
+}
+
+.pagebar div {
+  width: 50%;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.pagecontent {
+  display: flex;
+  width: 100%;
+  height: 92%;
+  gap: 50px;
+}
+
+.contentrow {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contentbar {
+  width: 100%;
+  display: flex;
+  gap: 0px;
+  gap: 20px;
+}
+.contentbaritem {
+  width: 33.3%;
+  display: grid;
+  place-items: center;
+}
+
+.contentcards {
+  height: 95%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
+}
+.contentcards::-webkit-scrollbar {
+  display: none;
+}
+.contentcard {
+  width: 95%;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  background-color: rgb(245, 252, 250);
+  border-radius: 17.5px;
+}
+
+.contentcarditem {
+  height: 100%;
+  width: 33.3%;
+  display: grid;
+  place-content: center;
+}
+
+.contentcarditem input {
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.addproductform {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 100px;
+  width: 80%;
+}
+
+.addproductform input {
+  height: 40px;
+  width: 90%;
+  background-color: rgb(221, 222, 223);
+  border: none;
+  border-radius: 10px;
+}
+
+.addproductform textarea {
+  height: 150px;
+  width: 90%;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(221, 222, 223);
+}
+
+.addproductform button {
+  height: 40px;
+  width: 150px;
+  border-radius: 10px;
+  border: none;
+  display: grid;
+  color: white;
+  background-color: green;
+  font-weight: 700;
+  place-items: center;
+  font-size: 20px;
+}
+
+.productcurrentimages {
+  display: flex;
+  align-items: center;
+  overflow-y: scroll;
+  width: 100%;
+  height: 200px;
+  gap: 20px;
+  padding-bottom: 100px;
+}
+
+.productcurrentimages::-webkit-scrollbar {
+  display: none;
+}
+
+.currentimage {
+  height: 128px;
+  min-width: 128px;
+}
+
+.currentimage img {
+  width: 100%;
+  height: 100%;
+}

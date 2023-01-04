@@ -108,7 +108,8 @@
 
 .contactinfoitem {
   display: flex;
-  width: 100%;
+  width: 96%;
+  padding: 2%;
   height: 150px;
   align-items: center;
   gap: 40px;

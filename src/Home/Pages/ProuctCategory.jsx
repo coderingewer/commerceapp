@@ -3,17 +3,16 @@ import Footer from "../../bars/Footer";
 import NavBar from "../../bars/NavBar";
 import "../Home.css";
 import "./Projects.css";
-import marka from "../images/marka.png";
 import banner from "../images/banner.png"
 
-function Projects() {
+function ProductCategory() {
   return (
     <div>
       <NavBar />
       <div className="pagebanner">
         <img src={banner} alt="" />
         <div className="bannercover">
-          <h1>PROJELERİMİZ</h1>
+          <h1>Armut Salıncak</h1>
         </div>
       </div>
       <div>
@@ -21,7 +20,7 @@ function Projects() {
       <div className="card">
         <div className="images">
           <div className="imagescover">
-            <img src={marka}/>
+          <img src={banner} alt="" />
             <div className="imgsbody">
               <div
                 style={{
@@ -82,6 +81,7 @@ function Projects() {
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book.
           </p>
+          <a>BİZE ULAŞIN</a>
         </div>
       </div>
       <div className="card">
@@ -93,10 +93,11 @@ function Projects() {
               ever since the 1500s, when an unknown printer took a galley of
               type and scrambled it to make a type specimen book.
             </p>
+            <a>BİZE ULAŞIN</a>
           </div>
           <div className="images">
             <div className="imagescover">
-            <img src={marka}/>
+            <img src={banner} alt="" />
               <div className="imgsbody">
                 <div className="bigimgbody">
                   <div
@@ -153,7 +154,7 @@ function Projects() {
         <div className="card">
         <div className="images">
           <div className="imagescover">
-          <img src={marka}/>
+            <img src={banner} alt="" />
             <div className="imgsbody">
               <div
                 style={{
@@ -214,6 +215,7 @@ function Projects() {
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book.
           </p>
+          <a>BİZE ULAŞIN</a>
         </div>
       </div>
       <Footer />
@@ -221,4 +223,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default ProductCategory;

@@ -1,16 +1,23 @@
 .pagebanner {
   width: 100%;
   height: 400px;
+  position: relative;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.pagebanner img {
+  width: 100%;
+  height: 400px;
+  z-index: -1;
+  position: absolute;
+  left: 0;
+}
 .bannercover {
   width: 100%;
   height: 100%;
   display: grid;
   place-items: center;
-  background-color: rgba(222, 222, 222, 0.9);
+  background-color: rgba(222, 222, 222, 0.6);
 }
 
 .bannercover h1 {

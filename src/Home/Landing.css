@@ -1,0 +1,200 @@
+.zeblogo {
+  background-color: #0d8f8b;
+  height: 200px;
+  width: 500px;
+  border-bottom-right-radius:400px;
+  border-bottom-left-radius: 400px;
+}
+.zeblogo img {
+    margin-top: 20px;
+}
+
+.pagelanding {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.landingfirst{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.layertitle{
+    height: 100px;
+    width: 80%;
+    display: grid;
+    place-items: center;
+    background: url("./layer2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.layertitle h1{
+    text-align: center;
+    font-size: 48px;
+    color: white;
+}
+
+.landingfirstcontent{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 32px;
+    gap: 5px;
+    color: rgb(126, 126, 126);
+    justify-content: center;
+}
+
+.landingsecond{
+    height: 600px;
+    width: 100%;
+    background-color: rgba(221, 221, 221, 0.575);
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.landingsecondtext{
+    width: 50%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+.landingsecondtext p{
+    font-size: 38px;
+    font-weight: 700;
+    color: gray;
+}
+
+.landingsecondimgs{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landingsecondimgs img{
+    height: 80%;
+    width: 80%;
+}
+
+.landingitem3{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   justify-content: center;
+}
+
+.landingitm3img{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landingitm3img img{
+    height: 80%;
+    width: 80%;
+}
+
+
+.landimgitm3content{
+    width: 50%;
+    height: 100%;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(187, 187, 187);
+    display: flex;
+    align-items: center;
+}
+
+.landimgitm3content p{
+    width: 80%;
+    text-align: left;
+}
+
+.landingpageitm4{
+    height: 600px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+
+.landigitm4title{
+    color: #008985;
+    width: 100%;
+    font-weight: 800;
+}
+
+.landingitm4content{
+    font-size: 32px;
+    width: 70%;
+    font-weight: 700;
+    color: #959595;
+}
+
+.landingitm5 {
+    height: 600px;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    color: #959595;
+}
+
+.itm5contebt  {
+    font-size: 32px;
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.bigtitleinlanding{
+    position: absolute;
+    background-color: #0d8f8b;
+    color: white;
+    width: 50%;
+    top:30px;
+    border-radius: 20px;
+}
+
+.downloadebook{
+   color: #5f5798;
+   display: flex;
+   width: 100%;
+   align-items: center;
+   gap: 20px;
+   position: absolute;
+   justify-content: center;
+}
+
+.downloadebook button{
+    height: 50px;
+    background-color: #5f5798;
+    border: none;
+    font-size: 24px;
+    color: white;
+    padding: 10px;
+    font-weight: 700;
+}

@@ -20,9 +20,11 @@ function Footer() {
             hazırız.
           </h1>
           <div className="footertopbtns">
+            <Link className="link" to="/contact" >
             <button style={{ backgroundColor: "white" }} href="">
               bizi arayın
             </button>
+            </Link>
             <button onClick={() => handleOpen("applyform")} href="">
               Bayilik
             </button>

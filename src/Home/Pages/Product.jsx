@@ -4,6 +4,7 @@ import "./Projects.css";
 import marka from "../images/marka.png";
 import NavBar from "../../bars/NavBar";
 import Footer from "../../bars/Footer";
+import banner from "../images/banner.png"
 import { useDispatch, useSelector } from "react-redux";
 import { getAllAsync } from "../../Redux/ProductSlice";
 
@@ -18,6 +19,7 @@ function Product() {
     <div>
       <NavBar />
       <div className="pagebanner">
+        <img src={banner} alt="" />
         <div className="bannercover">
           <div>
             <p>ÜRÜNLERİMZ</p>

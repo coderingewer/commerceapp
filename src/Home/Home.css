@@ -252,17 +252,8 @@
   text-align: center;
 }
 
-.referancecover a {
-  font-size: 12px;
-  letter-spacing: 0px;
-  color: #ffffff;
-  background-color: #008985;
-  padding: 10px;
-  font-weight: 600;
-}
-
 .referancecover h1 {
-  font-size: 28px;
+  font-size: 32px;
   color: #161a2d;
   font-weight: 800;
 }
