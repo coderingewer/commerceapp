@@ -31,7 +31,7 @@ function NavBar() {
       <div className="navbar">
         <div className="logo">
           <Link className="link" to="/">
-            <img src={logo} alt="" />
+           LOGO
           </Link>
         </div>
         <div id="navsinnav">

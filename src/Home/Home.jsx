@@ -17,19 +17,8 @@ function Home() {
     <div className="home">
       <NavBar />
       <div className="slides">
-        <div className={activeItem === 1 ? "slide activeslide" : "slide disable"}>
-          <img src={product} />
-        </div>
-        <div className={activeItem === 2 ? "slide activeslide" : "slide disable"}>
+        <div className={"slide activeslide" }>
           <img src={banner} />
-        </div>
-        <div className={activeItem === 3 ? "slide activeslide" : "slide disable"}>
-          <img src={product} />
-        </div>
-        <div className="dots" >
-          <button onClick={() => HandleChange(1)}>{activeItem ===1 && 1}</button>
-          <button onClick={() => HandleChange(2)}>{activeItem ===2 && 2}</button>
-          <button onClick={() => HandleChange(3)}>{activeItem ===3 && 3}</button>
         </div>
       </div>
       <div className="exploretitle">

@@ -27,156 +27,205 @@ function Product() {
           </div>
         </div>
       </div>
-      {products.map((product, i) =>
-        i % 2 === 0 ? (
-          <div key={product.ID} className="card">
-            <div className="images">
-              <div className="imagescover">
-                <img
-                  src={
-                    product.Images.length > 0 ? product.Images[0].Image.Url : marka
-                  }
-                />
-                <div className="imgsbody">
-                  <div
-                    style={{
-                      height: "100%",
-                      width: "50px",
-                      backgroundColor: "white",
-                    }}
-                  ></div>
-                  <div className="bigimgbody">
-                    <div
-                      style={{
-                        height: "10%",
-                        with: "100%",
-                        backgroundColor: "white",
-                      }}
-                    ></div>
-                    <div className="bigimg"></div>
-                    <div
-                      style={{
-                        height: "10%",
-                        with: "100%",
-                        backgroundColor: "white",
-                      }}
-                    ></div>
-                  </div>
-                  <div
-                    style={{
-                      height: "100%",
-                      width: "21px",
-                      backgroundColor: "white",
-                    }}
-                  ></div>
-                  <div className="smallimgbody">
-                    <div
-                      style={{
-                        height: "20%",
-                        with: "100%",
-                        backgroundColor: "white",
-                      }}
-                    ></div>
-                    <div className="smallimg"></div>
-                    <div
-                      style={{
-                        height: "10%",
-                        with: "100%",
-                        backgroundColor: "white",
-                      }}
-                    ></div>
-                  </div>
-                </div>
+      <div className="card">
+        <div className="images">
+          <div className="imagescover">
+            <img src={marka}/>
+            <div className="imgsbody">
+              <div
+                style={{
+                  height: "100%",
+                  width: "50px",
+                  backgroundColor: "white",
+                }}
+              ></div>
+              <div className="bigimgbody">
+                <div
+                  style={{
+                    height: "10%",
+                    with: "100%",
+                    backgroundColor: "white",
+                  }}
+                ></div>
+                <div className="bigimg"></div>
+                <div
+                  style={{
+                    height: "10%",
+                    with: "100%",
+                    backgroundColor: "white",
+                  }}
+                ></div>
               </div>
-            </div>
-            <div className="cardbody">
-              <h1>{product.ModelName} </h1>
-              <p>{product.Detail}</p>
-              <h2>STOK: {product.Code}</h2>
-              <a>BİZE ULAŞIN </a>
-              {product.Images.length > 3 && (
-                <div className="cardimages">
-                  <img src={product.Images[1].Image.Url} />
-                  <img src={product.Images[2].Image.Url} />
-                </div>
-              )}
-            </div>
-          </div>
-        ) : (
-          <div className="card">
-            <div className="cardbody">
-              <h1>{product.ModelName}</h1>
-              <p>{product.Detail}</p>
-              <h2>STOK: {product.Code}</h2>
-              <a>BİZE ULAŞIN</a>
-              {product.Images.length > 0 && (
-                <div className="cardimages">
-                  <img src={product.Images[0].Image.Url} />
-                  <img src={product.Images[1].Image.Url} />
-                </div>
-              )}
-            </div>
-            <div className="images">
-              <div className="imagescover">
-                <img
-                  src={
-                    product.Images.length > 0 ? product.Images[0].Image.Url : marka
-                  }/>
-                <div className="imgsbody">
-                  <div className="bigimgbody">
-                    <div
-                      style={{
-                        height: "10%",
-                        with: "100%",
-                        backgroundColor: "white",
-                      }}
-                    ></div>
-                    <div className="bigimg"></div>
-                    <div
-                      style={{
-                        height: "10%",
-                        with: "100%",
-                        backgroundColor: "white",
-                      }}
-                    ></div>
-                  </div>
-                  <div
-                    style={{
-                      height: "100%",
-                      width: "20px",
-                      backgroundColor: "white",
-                    }}
-                  ></div>
-                  <div className="smallimgbody">
-                    <div
-                      style={{
-                        height: "20%",
-                        with: "100%",
-                        backgroundColor: "white",
-                      }}
-                    ></div>
-                    <div className="smallimg"></div>
-                    <div
-                      style={{
-                        height: "10%",
-                        with: "100%",
-                        backgroundColor: "white",
-                      }}
-                    ></div>
-                  </div>
-                  <div
-                    style={{
-                      height: "100%",
-                      width: "50px",
-                      backgroundColor: "white",
-                    }}
-                  ></div>
-                </div>
+              <div
+                style={{
+                  height: "100%",
+                  width: "21px",
+                  backgroundColor: "white",
+                }}
+              ></div>
+              <div className="smallimgbody">
+                <div
+                  style={{
+                    height: "20%",
+                    with: "100%",
+                    backgroundColor: "white",
+                  }}
+                ></div>
+                <div className="smallimg"></div>
+                <div
+                  style={{
+                    height: "10%",
+                    with: "100%",
+                    backgroundColor: "white",
+                  }}
+                ></div>
               </div>
             </div>
           </div>
-        )
-      )}
+        </div>
+        <div className="cardbody">
+          <h1> Lorem Ipsum is simply dummy </h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
+        </div>
+      </div>
+      <div className="card">
+          <div className="cardbody">
+            <h1>Cappadocia Cave Lodge</h1>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+          <div className="images">
+            <div className="imagescover">
+            <img src={marka}/>
+              <div className="imgsbody">
+                <div className="bigimgbody">
+                  <div
+                    style={{
+                      height: "10%",
+                      with: "100%",
+                      backgroundColor: "white",
+                    }}
+                  ></div>
+                  <div className="bigimg"></div>
+                  <div
+                    style={{
+                      height: "10%",
+                      with: "100%",
+                      backgroundColor: "white",
+                    }}
+                  ></div>
+                </div>
+                <div
+                  style={{
+                    height: "100%",
+                    width: "20px",
+                    backgroundColor: "white",
+                  }}
+                ></div>
+                <div className="smallimgbody">
+                  <div
+                    style={{
+                      height: "20%",
+                      with: "100%",
+                      backgroundColor: "white",
+                    }}
+                  ></div>
+                  <div className="smallimg"></div>
+                  <div
+                    style={{
+                      height: "10%",
+                      with: "100%",
+                      backgroundColor: "white",
+                    }}
+                  ></div>
+                </div>
+                <div
+                  style={{
+                    height: "100%",
+                    width: "50px",
+                    backgroundColor: "white",
+                  }}
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="card">
+        <div className="images">
+          <div className="imagescover">
+          <img src={marka}/>
+            <div className="imgsbody">
+              <div
+                style={{
+                  height: "100%",
+                  width: "50px",
+                  backgroundColor: "white",
+                }}
+              ></div>
+              <div className="bigimgbody">
+                <div
+                  style={{
+                    height: "10%",
+                    with: "100%",
+                    backgroundColor: "white",
+                  }}
+                ></div>
+                <div className="bigimg"></div>
+                <div
+                  style={{
+                    height: "10%",
+                    with: "100%",
+                    backgroundColor: "white",
+                  }}
+                ></div>
+              </div>
+              <div
+                style={{
+                  height: "100%",
+                  width: "21px",
+                  backgroundColor: "white",
+                }}
+              ></div>
+              <div className="smallimgbody">
+                <div
+                  style={{
+                    height: "20%",
+                    with: "100%",
+                    backgroundColor: "white",
+                  }}
+                ></div>
+                <div className="smallimg"></div>
+                <div
+                  style={{
+                    height: "10%",
+                    with: "100%",
+                    backgroundColor: "white",
+                  }}
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="cardbody">
+          <h1> Lorem Ipsum is simply dummy </h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
+        </div>
+      </div>
+      
       <Footer />
     </div>
   );

@@ -11,6 +11,26 @@ export const getAllAsync = createAsyncThunk(
     return res.data;
   }
 );
+
+export const getByIdAsync = createAsyncThunk(
+  "product/getById/",
+  async () => {
+    const res = await axios.get(
+      `${process.env.REACT_APP_REQUEST_DOMAIN}/product/getall`,
+    );
+    return res.data;
+  }
+);
+
+export const deleteByIdAsync = createAsyncThunk(
+  "product/deleteById/",
+  async () => {
+    const res = await axios.delete(
+      `${process.env.REACT_APP_REQUEST_DOMAIN}/product/getall`,
+    );
+    return res.data;
+  }
+);
 const ProductSlice = createSlice({
   name: "product",
   initialState: {

@@ -32,7 +32,7 @@ function Footer() {
         </div>
         <div className="footeritems">
           <div className="footeritm">
-            <img className="footermtlogo" src={logo} alt="" />
+            LOGO
             <p className="aboutinfooter">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
